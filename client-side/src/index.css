@@ -461,6 +461,14 @@ header {
     background-color: #4b49ac !important;
 }
 
+/*hide up and down arrow from student login phone number*/
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 @keyframes popIn {
     from {
         transform: scale(0.8);
